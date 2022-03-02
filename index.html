@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Style Sheet-->
+    <link rel="stylesheet" href="style.css">
+    <!--Normlize Sheet-->
+    <link rel="stylesheet" href="normlize.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Special Design</title>
+</head>
+<body>
+    <!--Start Setting Box-->
+    <div class="setting-box">
+        <div class="toggle-setting">
+            <i class="fa-solid fa-gear gear-icon "></i>
+        </div>
+        <div class="setting-container">
+            <div class="option-box">
+                <h4>Colors</h4>
+                <ul class="colors-list">
+                    <li class="active" data-color="rgb(228, 97, 173)"></li>
+                    <li data-color="#E91E63"></li>
+                    <li data-color="#009688"></li>
+                    <li data-color="#03A9F4"></li>
+                    <li data-color="#4CAF50"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4>Random Background</h4>
+                <div class="random-backgrounds">
+                <span class="yes active" data-background="yes">Yes</span>
+                <span class="no" data-background="no">No</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4>Show Bullets</h4>
+                <div class="bullets-option">
+                <span class="yes active" data-display="yes">Yes</span>
+                <span class="no" data-display="no">No</span>
+                </div>
+            </div>
+            <button class="reset-options">
+                Reset Options
+            </button>
+        </div>
+    </div>
+    <!--End Setting Box-->
+    <!--Nav Bullets-->
+    <div class="nav-bullets" >
+        <div class="bullet" data-section=".about-us">
+            <div class="tooltip" >About us</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tooltip">Our Skills</div>
+
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tooltip">Our Gallery</div>
+
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip">Time Line</div>
+
+        </div>
+        <div class="bullet" data-section=".features">
+            <div class="tooltip">Features</div>
+
+        </div>
+        <div class="bullet" data-section=".testimonials">
+            <div class="tooltip">Testimonials</div>
+
+        </div>
+        <div class="bullet" data-section=".contact">
+            <div class="tooltip">Contact Us</div>
+
+        </div>
+
+        
+    </div>
+
+    <!--Nav Bulltes End-->
+    <!--Start Landing Page-->
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="header-area">
+                <div class="logo">Special Design</div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li> <a href="#" class="active" data-section=".about-us">About</a></li>
+                        <li> <a href="#" data-section=".skills">Skills</a></li>
+                        <li> <a href="#" data-section=".gallery">Gallery</a></li>
+                        <li> <a href="#" data-section=".timeline">Timeline</a></li>
+                        <li> <a href="#" data-section=".features">Features</a></li>
+                        <li> <a href="#" data-section=".testimonials">Testimonials</a></li>
+                        <li> <a href="#" data-section=".contact">Contact Us</a></li>
+                    </ul>
+                    <button class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="introduction-text">
+            <h1>We Are <span>Creative</span>  Agency</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus, ipsa! Voluptate optio rerum porro culpa ipsum sit mollitia dolor, molestias facere reiciendis consequatur ratione dolorum eveniet eius accusantium modi a?</p>
+        </div>
+    </div>
+    <!--End Landing Page-->
+    <!--Start About Us-->
+    <div class="container">
+        <div class="about-us" id="about">
+        <div class="info-box">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere velit sunt ipsa vitae obcaecati tenetur deleniti quo aliquid nulla ducimus iusto, dicta, assumenda architecto atque facilis dolorem adipisci odio quis.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque suscipit ullam, ab qui, odio voluptates nulla deserunt obcaecati distinctio adipisci delectus odit. Esse, cupiditate mollitia laboriosam nobis similique repellendus corrupti?
+            </p>
+            </div>
+            <div class="img-box">
+                <img src="imgs/about-us.jpg" alt="">
+        </div> 
+    </div>
+</div>
+    <!--End About Us-->
+    <!--Our Skills start-->
+    <div class="skills" id="skills">
+        <h2>Our Skills</h2>
+        <div class="container">
+            
+            <div class="skill-box">
+                <div class="skill-name">HTML</div>
+                <div class="skill-progress">
+                    <span data-progress="90%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">CSS</div>
+                <div class="skill-progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">javascript</div>
+                <div class="skill-progress">
+                    <span data-progress="60%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Bootsrap</div>
+                <div class="skill-progress">
+                    <span data-progress="50%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">jquery</div>
+                <div class="skill-progress">
+                    <span data-progress="20%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">React js</div>
+                <div class="skill-progress">
+                    <span data-progress="10%"></span>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+    <!--Our Skills End-->
+    <!--Strat Gallery-->
+    <div class="gallery" id="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="images-box">
+                <img src="imgs/gallery-01.png" alt="gallery one">
+                <img src="imgs/gallery-02.png" alt="gallery two">
+                <img src="imgs/gallery-03.jpg" alt="gallery three">
+                <img src="imgs/gallery-04.png" alt="gallery four">
+                <img src="imgs/gallery-05.jpg" alt="gallery five">
+                <img src="imgs/gallery-06.png" alt="gallery six">
+                <img src="imgs/gallery-07.jpg" alt="gallery seven">
+                <img src="imgs/gallery-08.jpg" alt="gallery eight">
+                <img src="imgs/gallery-09.jpg" alt="gallery nine">
+                <img src="imgs/gallery-10.jpg" alt="gallery ten">
+            </div>
+
+        </div>
+    </div>
+    <!--End Gallery-->
+    <!--Start Time line-->
+    <div class="timeline" id="timeline">
+        <div class="container">
+            <div class="timeline-content">
+
+                <div class="year">2022</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima consequatur sit reiciendis, explicabo aperiam culpa doloribus? Consectetur possimus aperiam est.</p>
+                        
+                    </div>
+                </div>
+                <div class="clearfix"></div>                
+
+                
+                <div class="right ">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima consequatur sit reiciendis, explicabo aperiam culpa doloribus? Consectetur possimus aperiam est.</p>
+                    </div>
+            
+                </div>
+                <div class="clearfix"></div>  
+                <div class="year">2021</div> 
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima consequatur sit reiciendis, explicabo aperiam culpa doloribus? Consectetur possimus aperiam est.</p>
+                        
+                    </div>
+                </div>
+                <div class="clearfix"></div>                
+
+                
+                <div class="right ">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima consequatur sit reiciendis, explicabo aperiam culpa doloribus? Consectetur possimus aperiam est.</p>
+                    </div>
+            
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2022</div> 
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima consequatur sit reiciendis, explicabo aperiam culpa doloribus? Consectetur possimus aperiam est.</p>
+                        
+                    </div>
+                </div>
+                <div class="clearfix"></div>                
+
+                
+                <div class="right ">
+                    <div class="content">
+                        <h3>Testing Heading</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima consequatur sit reiciendis, explicabo aperiam culpa doloribus? Consectetur possimus aperiam est.</p>
+                    </div>
+            
+                </div>
+                <div class="clearfix"></div>              
+
+
+            </div>
+
+        </div>
+    </div>
+    <!--end Time line-->
+    <!--Our Features start-->
+    <div class="features" id="features">
+        <h2>Our Features</h2>
+        <div class="container">
+            <div class="feat-box">
+                <img src="imgs/work-steps-1.png" alt="">
+                <h4>Business Analysis</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, repellendus?</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/work-steps-2.png" alt="">
+                <h4>Architecture</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, repellendus?</p>
+            </div>
+            <div class="feat-box">
+                <img src="imgs/work-steps-3.png" alt="">
+                <h4>Development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, repellendus?</p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        
+    </div>
+    
+    <!--Our Features End-->
+    <!--Testimonials Start-->
+    <div class="testimonials" id="testimonials">
+        
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="ts-box">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, ipsa?</p>
+                <div class="person-info">
+                    <img src="imgs/avatar-01.png" alt="">
+                    <h4>Alaa Badwan</h4>
+                    <p>Software Engnieer</p>
+                </div>
+                
+
+            </div>
+            <div class="ts-box">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, ipsa?</p>
+                <div class="person-info">
+                    <img src="imgs/avatar-02.png" alt="">
+                    <h4>Ghassan Wadi</h4>
+                    <p>Front-end Web Developer</p>
+                </div>
+                
+                
+            </div>
+            <div class="ts-box">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt, ipsa?</p>
+                <div class="person-info">
+                    <img src="imgs/avatar-03.png" alt="">
+                    <h4>Rami Ghassan</h4>
+                    <p>Back-end Web Developer</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <!--End Testimonials-->
+    <!--contact us start-->
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="Your Name" name="username">
+                    <input type="text" placeholder="Your Phone" name="phone">
+                    <input type="email" placeholder="Your Email" name="email">
+                    <input type="text" placeholder="Subject" name="subject">
+
+
+                </div>
+                <div class="right">
+                    <textarea name="message" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send">
+
+                </div>
+            </form>
+            
+        </div>
+    </div>
+    <!--contact us end-->
+    <!--Start Footer-->
+    <div class="footer">Created With Love By Diala Wadi</div>
+
+    <!--End Footer-->
+    <script src="javascript.js"></script>
+</body>
+</html>
